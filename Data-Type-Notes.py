@@ -28,15 +28,58 @@ name = "aron4"
 print(f"\nString example: " + name + " - can store any character")
 
 
+
+
+
+
+
+
+
+
 """
 We have a new one to add called list
 
 """
 
 grades = [85, 78, 92, 73, 88, 95, 68, 90]
+
 print(f"\nGrades example: {grades} - multiple values of any data type")
 
 
+"""
+In Programming, the elements within a list are viewed as this:
+
+list = [key: value, key: value]
+
+
+key - number used to retrieve the N listed number from the list
+
+value - a variable with any data type
+
+"""
+
+list_example = ["string1", "string2", "string3", "string4"]
+
+               [    0,         1,         2,         3    ]
+
+
+
+# So, the 1st element in programming, is retrieved by using the key 0.
+# Print the 1st grade from the list
+first_grade = grades[0]
+print(f"\nFirst grade: {first_grade}")
+
+
+# Print the 5th grade from the list
+fifth_grade = grades[4]
+print(f"\nFifth grade: {fifth_grade}")
+
+
+
+# Print the last grade in the list.
+# To access the last value from a list, we use -1
+last_grade = grades[-1]
+print(f"\nLast grade: {last_grade}")
 
 
 
@@ -53,14 +96,11 @@ print(f"\nGrades example: {grades} - multiple values of any data type")
 
 
 
-
-
-
-""""
+"""
 EXTRA NOTES
 
 You can have a list of any type
-""""
+"""
 
 
 
